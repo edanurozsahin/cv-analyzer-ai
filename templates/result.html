@@ -1,0 +1,10 @@
+<h1>{{ result.match_percentage }}%</h1>
+
+<p>{{ result.summary }}</p>
+
+<h3>Strengths</h3>
+<ul>
+{% for i in result.strengths %}
+<li>{{ i }}</li>
+{% endfor %}
+</ul>
